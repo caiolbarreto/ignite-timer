@@ -1,5 +1,5 @@
 export const darkMode = {
-  white: '#FFF',
+  title: 'dark',
 
   'gray-100': '#E1E1E6',
   'gray-300': '#C4C4CC',
@@ -8,6 +8,7 @@ export const darkMode = {
   'gray-600': '#323238',
   'gray-700': '#29292E',
   subBackgroud: '#202024',
+  switch: '#18181b',
   background: '#121214',
 
   concluded: '#00B37E',

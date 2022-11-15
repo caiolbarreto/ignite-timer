@@ -2,7 +2,7 @@ import 'styled-components'
 
 declare module 'styled-components' {
   export interface DefaultTheme {
-    white: string
+    title: string
 
     'gray-100': string
     'gray-300': string
@@ -11,6 +11,7 @@ declare module 'styled-components' {
     'gray-600': string
     'gray-700': string
     subBackgroud: string
+    switch: string
     background: string
 
     concluded: string
