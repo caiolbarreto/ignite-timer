@@ -18,6 +18,8 @@ export const HeaderContainer = styled.div`
       width: 3rem;
       height: 3rem;
 
+      box-shadow: none;
+
       color: ${(props) => props.theme['gray-100']};
 
       border-top: 3px solid transparent;
