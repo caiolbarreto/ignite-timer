@@ -6,7 +6,7 @@ export const FormContainer = styled.div`
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
-  color: ${(props) => props.theme['gray-100']};
+  color: ${(props) => props.theme.fontColor};
   font-size: 1.125rem;
   font-weight: bold;
   flex-wrap: wrap;
@@ -16,11 +16,11 @@ export const BaseInput = styled.input`
   background: transparent;
   height: 2.5rem;
   border: 0;
-  border-bottom: 2px solid ${(props) => props.theme['gray-500']};
+  border-bottom: 2px solid ${(props) => props.theme.input};
   font-weight: bold;
   font-size: 1.125rem;
   padding: 0 0.5rem;
-  color: ${(props) => props.theme['gray-100']};
+  color: ${(props) => props.theme.fontColor};
   transition: 0.2s ease;
 
   &:focus {
@@ -29,7 +29,7 @@ export const BaseInput = styled.input`
   }
 
   &::placeholder {
-    color: ${(props) => props.theme['gray-500']};
+    color: ${(props) => props.theme.input};
   }
 `
 

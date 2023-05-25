@@ -33,7 +33,7 @@ export const BaseCountdownButton = styled.button`
 
   transition: 0.25s ease;
 
-  color: ${(props) => props.theme['gray-100']};
+  color: ${(props) => props.theme.buttonFontColor};
 
   &:disabled {
     opacity: 0.7;

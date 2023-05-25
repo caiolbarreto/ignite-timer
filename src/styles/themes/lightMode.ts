@@ -1,12 +1,13 @@
 export const lightMode = {
   title: 'light',
 
-  'gray-100': '#18181b',
-  'gray-300': '#C4C4CC',
-  'gray-400': '#8D8D99',
-  'gray-500': '#7C7C8A',
-  'gray-600': '#323238',
-  'gray-700': '#29292E',
+  buttonFontColor: '#E1E1E6',
+
+  fontColor: '#3c3c44',
+  baseFontColor: '#303036',
+  input: '#7C7C8A',
+  tableHeader: '#adadb8',
+  itemsBackground: '#C4C4CC',
   subBackgroud: '#d6d6db',
   switch: '#bbbbc3',
   background: '#f1f1f3',
@@ -15,8 +16,8 @@ export const lightMode = {
   icon: '#008059',
   disabled: '#015F43',
 
-  button: '#AB222E',
-  interrupted: '#7A1921',
+  button: '#c02633',
+  interrupted: '#941e28',
 
   progress: '#FBA94C',
 }

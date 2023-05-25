@@ -1,3 +1,4 @@
+import { CyclesContextProvider } from './contexts/CyclesContext'
 import { lightMode } from './styles/themes/lightMode'
 import { darkMode } from './styles/themes/darkMode'
 import { ThemeProvider } from 'styled-components'
@@ -16,7 +17,9 @@ export function App() {
   return (
     <ThemeProvider theme={theme}>
       <BrowserRouter>
-        <Router setToggle={setToggle} />
+        <CyclesContextProvider>
+          <Router setToggle={setToggle} />
+        </CyclesContextProvider>
       </BrowserRouter>
       <GlobalStyle />
     </ThemeProvider>

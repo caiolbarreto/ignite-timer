@@ -20,7 +20,7 @@ export const HeaderContainer = styled.div`
 
       box-shadow: none;
 
-      color: ${(props) => props.theme['gray-100']};
+      color: ${(props) => props.theme.fontColor};
 
       border-top: 3px solid transparent;
       border-bottom: 3px solid transparent;
